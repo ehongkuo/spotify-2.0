@@ -30,6 +30,7 @@ const Library = () => {
           <p
             className="
               text-neutral-400
+              cursor-pointer
               font-medium
               text-md
             "
