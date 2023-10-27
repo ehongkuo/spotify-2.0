@@ -51,7 +51,24 @@ Once you create an account and verify your email, you should be logged in! You w
 
 However, you will still be unable to play songs because you are not yet subscribed! Don't worry, for this project and app, the subscription is only there for the sake of integrating stripe, you can use a test card to get a subscription for free! Heres how:
 
+First click on the "Subscribe for $9 a month" button
 
+![premium_only](/assets/images/premium_only.png)
+
+This link will take you to a stripe link that looks like this:
+
+![stripe](/assets/images/stripe.png)
+
+Here you will need to enter card information but since this app is using stripe in test mode, as denoted in orange, you can use the the test number __4242 4242 4242 4242__ to get a free premium subscription! For the rest of the information such as CVV and address, you can put whatever you like, it doesn't matter!
+
+![test_card](/assets/images/test_card.png)
+
+Once you are subscribed, it will take you back to your accounts page and it should look like this, denoting that your subscription went through:
+
+![success](/assets/images/success.png)
+
+Now, you are finally able to use this app to its full capacity! Feel free to try uploading songs, playing them, liking them and searching for them in the search page!
+Thanks and hope you have a good time!
 
 ## Reflection
 
