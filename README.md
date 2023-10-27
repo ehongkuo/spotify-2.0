@@ -72,17 +72,14 @@ Thanks and hope you have a good time!
 
 ## Reflection (Q&A Format)
 
-
-A technical challenge I recently tackled was surprisingly-implementing basic playlist functionalities in a personal Spotify app project. Although songs were playing correctly, playlists of songs and skip/replay functions did not behave correctly. Features that initially seemed to only require basic arrays, loops, and conditionals to implement quickly became a large mess of issues that eventually pointed to a core issue: compatibility with the “use-sound” library that was necessary to play songs. Unable to find a solution that was both optimal and compatible for a while, I employed a solution that manually re-rendered the Player for each song. While performance was not optimal, I recognized that getting a working application was more important. 
-
-This experience taught me that focusing too hard on features or optimizations can be unproductive when losing sight of the larger goal. Moving on from this particularly challenging problem without optimization led to greater productivity because it allowed me to complete a working application. It also taught me how to find a working solution while facing a core design issue. I now try my best to keep core library compatibility in mind when designing the systems of my applications.
-
-
-  - Q: What was the context for this project? (ie: was this a side project? was this for Turing? was this for an experiment?)
+  - __Q: What was the context for this project?__
   - A: This project was something I decided to work on because Spotify has many features that initially seemed to have intuitive applications for CS fundamentals such as DS and algorithms. Playlists -> Arrays/Queues, Songs -> OOP, etc. Also, music is a passion of mine and I loved the idea of using software to create something related to it.
-  - Q: Why was this project challenging and therefore a really good learning experience?
-  - A: This project's greatest challenge so far was, _surprisingly_, implementing basic playlist functionalities. Although songs were playing correctly, playlists of songs and skip/replay functions would not behave correctly for some time. Features that initially seemed to only require basic arrays, loops, and conditionals to implement quickly became a large mess of issues that eventually pointed to a core issue: compatibility with the “use-sound” library that was necessary to play songs. Eventually, I ended up designing the Player so that it would manually re-render a new instance of a Player for each song. While performance is not optimal, I prioritized getting a working application and optimizations are a current challenge in the works.
-  - Q: What have you learned from this project?
+    
+  - __Q: Why was this project challenging and therefore a really good learning experience?__
+  - A: This project's greatest challenge so far was, _surprisingly_, implementing basic playlist functionalities. Although songs were playing correctly, playlists of songs and skip/replay functions would not behave correctly for some time. Features that initially seemed to only require basic arrays, loops, and conditionals to implement quickly became a large mess of issues that eventually pointed to a core issue: compatibility with the “use-sound” library that was necessary to play songs. Eventually, I ended up designing the Player so that it would manually re-render a new instance of a Player for each song. While performance is not optimal, I prioritized getting a working application and optimizations are a current challenge in the works. All in all, definitely has been a great learning experience so far.
+  
+  - __Q: What have you learned from this project?__
   - A: This project taught me that focusing too hard on features or optimizations can be unproductive when losing sight of the larger goal. Moving on from especially challenging problems without optimization led to greater productivity because it allowed me to complete a working application. This project also taught me how to find working solutions while facing core design issues.
-  - Q: What are some future features you hope to implement?
+    
+  - __Q: What are some future features you hope to implement?__
   - A: Dynamic Song loading (maybe by pre-rendering the next song before the current one finishes, or employing a new song player library), Global volume state, Multiple playlists/Playlist folders, and Shuffle are a few on my mind. These features will be added and published in this repository as they are completed.
