@@ -14,25 +14,13 @@ Spotify 2.0 is an application that mirrors the Spotify app, designed to look and
 
 The technologies/technical features involved in this project include:
 
+- __React.js__: Components, hooks, and state widely used throughout project. Variety of React specific features:
+  - react-hook-form: form client form validation and handling
+  - react-toast: server error handling/notifications
 - __Next.js__: React functionality integrated with vercel, allowing seamless deployment/build structure
-- __Supabase__: 
-- Supabase and PostgreSQL Database handling
-- Credential authentication with Supabase
-- Tailwind CSS for sleek UI, animations and transition effects
-- Full responsiveness for all devices
-- Github authentication integration
-- File and image upload using Supabase storage
-- Client form validation and handling using react-hook-form
-- Server error handling with react-toast
-- Favorites system
-- Playlists / Liked songs system
-- Advanced Player component
-- Stripe recurring payment integration
-- How to write POST, GET, and DELETE routes in route handlers (app/api)
-- How to fetch data in server React components by directly accessing the database (WITHOUT API! like Magic!)
-- Handling relations between Server and Child components in a real-time environment
-- Stripe integration
-- Cancelling Stripe subscriptions
+- __Tailwind__: CSS framework for sleek UI, animations, transition effects, full responsiveness for all devices
+- __Supabase__: PostgreSQL Database handling, credential authentication, file and image upload, data fetch from components
+- __Stripe__: API to handle subscriptions and payment
 
 
 ## Project Status
