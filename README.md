@@ -1,10 +1,39 @@
 ## Spotify 2.0
 
-#### Example:
+#### Click here to view: [spotify-2](https://spotify-2-zeta.vercel.app/)
 
-TweetWorld 
+Spotify 2.0 is an application that mirrors the Spotify app, designed to look and function like Spotify. While the goal of this project was to make as close of a copy as possible, that is a very challenging task. Current features include:
 
-An application used to filter data form Twitter based on user preference, built with React, Redux, JavaScript, and CSS.
+- Song upload
+- Play song audio
+- Favorites system
+- Playlists / Liked songs system
+- Play/Pause, Skip forward/backwards
+- Volume Control
+- Premium Subscription with Stripe (Necessary for functionality, instructions below)
+
+The technologies/technical features involved in this project include:
+
+- __Next.js__: React functionality integrated with vercel, allowing seamless deployment/build structure
+- __Supabase__: 
+- Supabase and PostgreSQL Database handling
+- Credential authentication with Supabase
+- Tailwind CSS for sleek UI, animations and transition effects
+- Full responsiveness for all devices
+- Github authentication integration
+- File and image upload using Supabase storage
+- Client form validation and handling using react-hook-form
+- Server error handling with react-toast
+- Favorites system
+- Playlists / Liked songs system
+- Advanced Player component
+- Stripe recurring payment integration
+- How to write POST, GET, and DELETE routes in route handlers (app/api)
+- How to fetch data in server React components by directly accessing the database (WITHOUT API! like Magic!)
+- Handling relations between Server and Child components in a real-time environment
+- Stripe integration
+- Cancelling Stripe subscriptions
+
 
 ## Project Status
 (only necessary if incomplete)
