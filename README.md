@@ -37,33 +37,21 @@ The technologies/technical features involved in this project include:
   - API to handle subscriptions and payment
   - 
 
-## Project Screen Shot(s)
+## Setup Instructions
 
-[ PRETEND SCREEN SHOT IS HERE ]
+First, you need to visit the website that is deployed using Vercel. If the above link does not work, try using this url: [https://spotify-2-zeta.vercel.app/](https://spotify-2-zeta.vercel.app/)
 
-[ PRETEND OTHER SCREEN SHOT IS HERE ]
+Once you have entered the website, you will notice that there are a couple songs already displayed. You will also be able to navigate to the app's liked songs, search page, or return home using the corresponding buttons. The songs that you see are songs that I uploaded during development or songs other users uploaded! If you try clicking on them, first you will notice that you are unable to play the song as it will ask you to log in. In fact, no matter which song or location you try, the app requires that you log in before you can listen. Don't worry, making an account is free! You should see this page:
 
-## Installation and Setup Instructions
+![auth modal](/assets/images/auth_modal.png)
 
-#### Example:  
+Once you create an account and verify your email, you should be logged in! You will see the following in the corner of the page instead of the "log in/sign up" buttons:
 
-Clone down this repository. You will need `node` and `npm` installed globally on your machine.  
+![logged_in](/assets/images/premium.png)
 
-Installation:
+However, you will still be unable to play songs because you are not yet subscribed! Don't worry, for this project and app, the subscription is only there for the sake of integrating stripe, you can use a test card to get a subscription for free! Heres how:
 
-`npm install`  
 
-To Run Test Suite:  
-
-`npm test`  
-
-To Start Server:
-
-`npm start`  
-
-To Visit App:
-
-`localhost:3000/ideas`  
 
 ## Reflection
 
