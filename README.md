@@ -1,8 +1,7 @@
 ## Spotify 2.0
 
 #### Click here to view: [spotify-2](https://spotify-2-zeta.vercel.app/)
-![Logged out](/assets/images/logged_out.png)
-![Premium](/assets/images/premium.png)
+![Preview](/assets/images/preview.png)
 
 
 Spotify 2.0 is an application that mirrors the Spotify app, designed to look and function like Spotify. While the goal of this project was to make as close of a copy as possible, that is a very challenging task. Current features include:
